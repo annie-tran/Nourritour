@@ -1,0 +1,11 @@
+applications:
+- services:
+  - AngelHackMan-MonitoringAndAnalytics
+  - Nourritour1-DataCache
+  disk_quota: 1024M
+  host: Nourritour1
+  name: Nourritour1
+  path: cacheSampleJavaNativeAPIs.war
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M
